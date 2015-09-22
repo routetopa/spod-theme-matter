@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<theme>
+    <name>Route to PA: Matter</name>
+    <key>rtpa_matter</key>
+    <version>1.0</version>
+    <compatibility>1.7 and higher</compatibility>
+    <description>Standard Route-to-PA theme</description>
+    <author>ISISLab</author>
+    <authorEmail>isislab@routetopa.eu</authorEmail>
+    <authorUrl>http://www.isislab.it/</authorUrl>
+    <developerKey>2b810a795fa9b5b5d138ac0652de1a7e</developerKey>
+    <build>0</build>
+    <copyright>MISSING INFO</copyright>
+    <license>MISSING INFO</license>
+    <licenseUrl>MISSING INFO</licenseUrl>
+</theme>
