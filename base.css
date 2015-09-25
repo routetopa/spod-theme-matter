@@ -108,6 +108,7 @@ html[xmlns] .clearfix {display: block;}
   ========================================================*/
 body {
 	background-color: #fff; /** OW_Control type:color, section:1. General Settings, key:bodyColor, label:1. Page background color **/
+    min-width: 767px;
 }
 body, html {
 	font-family: 'Roboto', sans-serif;
@@ -605,7 +606,7 @@ body.ow_menu_active {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: #fff;
+    background-color: #2196F3; /** OW_Control type:color, key:primaryColor, section:2. Colors, label:2. Primary **/
 	z-index: 99;
 }
 .ow_console_right {
@@ -974,15 +975,18 @@ ul.ow_console_dropdown li:last-child .ow_console_dropdown_cont {
 /* ---- Main Menu styles ---- */
 .ow_menu_wrap {
     color: #FFFFFF; /** OW_Control type:color, key:textIconsColor, section:2. Colors, label:4. Text/Icons **/
-    background-color: #2196F3; /** OW_Control type:color, key:primaryColor, section:2. Colors, label:2. Primary **/
-    /* width: 100%; */
+    /*width: 100%;*/
     height: 56px;
     line-height: 56px;
+    display: table;
+    position: relative;
 }
 .ow_main_menu {
     display: none;
 	height: 100%;
 	margin: 0;
+    height: 56px;
+    overflow: hidden;
 }
 .ow_main_menu li {
 	-webkit-transition: background-color 0.3s;
@@ -992,6 +996,7 @@ ul.ow_console_dropdown li:last-child .ow_console_dropdown_cont {
 	transition: background-color 0.3s;
 	float: left;
 	padding: 0;
+    display: inline-block;
 }
 	.ow_main_menu li:hover, .ow_main_menu li.active {
 		background-color: rgba(0, 0, 0, 0.1);
@@ -1000,8 +1005,7 @@ ul.ow_console_dropdown li:last-child .ow_console_dropdown_cont {
 .ow_main_menu li a {
 	color: #FFFFFF; /** OW_Control type:color, key:textIconsColor, section:2. Colors, label:4. Text/Icons **/
 	font-size: 1rem;
-	color: #fff;
-	display: block;
+    display: inline-block;
 	padding: 0 15px;
 }
 
@@ -1019,10 +1023,9 @@ ul.ow_console_dropdown li:last-child .ow_console_dropdown_cont {
 				display: block;
 				background: #fff;
 				border-left: 1px solid #eff2f5;
-				border-right: 1px solid #eff2f5;
-				width: 68px;
-				height: 70px;
-				background: url(images/menu_btn.svg) no-repeat 3px -115px;
+				border-right: 1px solid #eff2f5;  width: 68px;
+				height: 56px;
+				background: url(images/menu_btn.svg) no-repeat 3px -120px;
 			}
 			.ow_menu_more:after,
 			.ow_menu_more:before {
