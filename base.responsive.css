@@ -1,0 +1,719 @@
+/* Responsive styles are currently under development */
+/* Responsive styles */
+@media (max-width: 979px) {
+    /*General*/
+    body, html {
+        min-width: 767px;
+    }
+    .ow_page_container, .ow_site_panel_wrap, .ow_footer {
+        width: 100%;
+    }
+    .ow_canvas {
+        width: 100%;
+    }
+    .ow_content > .ow_right {
+        float: none;
+        margin-bottom: 16px;
+    }
+    .ow_right {
+        float: none;
+    }
+    .place_section.ow_right,
+    #photo-list-search,
+    .ow_photo_upload_submit.ow_right {
+        float: right;
+    }
+    .ow_content > .ow_btn_delimiter.ow_right {
+        float: none;
+        margin-bottom: 8px;
+    }
+    .ow_content > .ow_btn_delimiter.ow_right .ow_button {
+        margin-bottom: 8px;
+    }
+    .ow_console_dropdown_hover:hover .OW_ConsoleItemContent,
+    .ow_console_dropdown_hover:active .OW_ConsoleItemContent {
+        display: block !important;
+    }
+    .ow_console_item a.ow_console_item_link {
+        pointer-events: none;
+    }
+    .ow_nav_btn:hover {
+        background-position: 0 -115px;
+        background-color: transparent;
+    }
+    .ow_page_padding {
+        border: none;
+    }
+    body .forum_search_form {
+        display: none;
+    }
+    .ow_forum {
+        word-wrap: break-word;
+    }
+    .ow_page_container .ow_page {
+        padding-top: 16px;
+    }
+    /*Photo*/
+    body .ow_photo_list_wrap.ow_photo_no_sidebar div.ow_photo_item_wrap,
+    body .ow_photo_list_wrap.ow_photo_no_sidebar .ow_photo_list.ow_photo_pint_mode div.ow_photo_item_wrap,
+    body .ow_photo_list_wrap.ow_photo_no_sidebar div.ow_photo_item_wrap.ow_photo_album {
+        width: 33.333%;
+    }
+    body .ow_photo_list_wrap.ow_photo_no_sidebar .ow_photo_list.ow_photo_pint_mode div.ow_photo_item_wrap {
+        height: 270px;
+        overflow: hidden;
+    }
+    .ow_photo_list.ow_photo_pint_mode .ow_photo_item_wrap .ow_photo_pint_album img {
+        min-height: 100%;
+    }
+    body .ow_photo_list_wrap div.ow_photo_item,
+    body .ow_photo_pint_album {
+        height: 100%;
+    }
+    .ow_photo_list.ow_photo_pint_mode .ow_photo_item_wrap {
+        position: static !important;
+    }
+    .ow_photo_list.ow_photo_pint_mode .ow_photo_item_wrap .ow_photo_pint_album {
+        overflow: hidden;
+        text-align: center;
+    }
+    .ow_photo_list.ow_photo_pint_mode .ow_photo_item_wrap .ow_photo_pint_album img {
+        width: auto;
+        height: auto;
+        border-radius: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+    }
+    .ow_photo_item .ow_photo_item_info_description {
+        display: none !important;
+    }
+    .ow_photo_list_wrap .ow_photo_item_wrap .ow_photo_item_info,
+    body .ow_photo_context_action {
+        display: none !important;
+    }
+    body .ow_photo_preview_x,
+    body .ow_photo_preview_rotate {
+        display: block;
+    }
+    /*Video*/
+    .ow_video_list .clearfix.ow_alt1,
+    .ow_video_list .clearfix.ow_alt2 {
+        display: block;
+    }
+    .ow_video_list_item {
+        float: left;
+        width: 100%;
+        margin: 0px;
+        padding: 24px 0 24px 24px;
+        border-bottom: 1px solid #eff2f5;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    .ow_video_list_item:first-child {
+        padding-top: 0;
+    }
+    .ow_video_list_item:last-child {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+    .ow_video_list_item > a:first-child {
+        float: left;
+        margin-right: 8px;
+    }
+    .ow_video_list > .ow_alt1,
+    .ow_video_list > .ow_alt2 {
+        background-color: #fff;
+        padding-left: 0;
+    }
+}
+@media (max-width: 767px) {
+    body .ow_menu_wrap,
+    .ow_site_panel .ow_logo {
+        display: none;
+    }
+    .ow_nav_btn {
+        display: block;
+        opacity: 1;
+    }
+    .ow_content .ow_superwide,
+    .ow_content .ow_supernarrow,
+    .ow_content .ow_narrow,
+    .ow_content .ow_wide,
+    .ow_content .ow_column {
+        float: none;
+        width: 100% !important;
+        margin-bottom: 10px;
+        clear: both;
+    }
+    body, html {
+        min-width: 480px;
+    }
+    .ow_site_panel {
+        min-width: 320px;
+    }
+    .floatbox_container {
+        max-width: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    .ow_ipc_header {
+        margin-bottom: 4px;
+    }
+    .ow_lp_label br {
+        margin: 6px 0;
+    }
+    .ow_sign_in_wrap form .ow_sign_in {
+        width: 100%;
+        float: none;
+    }
+    .ow_sign_in_wrap {
+        width: 100%;
+    }
+    .ow_sign_in_wrap form .ow_sign_up {
+        margin: 16px 0 0 0;
+        width: 100%;
+        text-align: center;
+    }
+    .ow_sign_in_wrap form .ow_sign_up p br {
+        height: 1px;
+    }
+    .floatbox_container .ow_sign_in_wrap form {
+        padding: 0;
+    }
+    .console_tooltip.ow_tooltip_top_right.ow_tooltip {
+        right: 2px;
+    }
+    .console_tooltip.ow_tooltip_top_right .ow_tooltip_tail span {
+        display: none;
+    }
+    body textarea.ow_newsfeed_status_input.invitation {
+        height: 32px;
+    }
+    /*.ow_console_item {
+        position: static;
+    }*/
+    .ow_console_body {
+        position: relative;
+    }
+    body .ow_newsfeed_item_content {
+        width: 100%;
+        max-width: 100%;
+    }
+    .ow_newsfeed_left {
+        width: auto;
+    }
+    body .ow_searchbar input[type="text"] {
+        height: 28px;
+        line-height: 18px;
+    }
+    iframe {
+        width: 100% !important;
+        height: auto;
+    }
+    body .ow_moderation_wrap {
+        margin-left: 0;
+    }
+    body .ow_moderation_sticky {
+        width: 100%;
+        margin-left: 0;
+    }
+    body .ow_chat_selector {
+        position: fixed;
+        left: 0;
+    }
+    body .ow_chat_dialog_wrap {
+        position: fixed;
+        left: 0;
+        width: 100%;
+    }
+    body .ow_chat_dialog {
+        width: 100% !important;
+        margin-left: 0;
+    }
+    body .ow_forgot_password {
+        width: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding: 0 20px;
+    }
+    body .customize_box {
+        display: none;
+    }
+    .ow_header {
+        position: relative;
+        height: 300px;
+    }
+    .ow_header img {
+        display: none;
+    }
+    .ow_header_pic {
+        display: block;
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+    .ow_message_cont {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+    /*------------- Messages --------------*/
+    body .ow_mailbox_table {
+        background: transparent;
+        margin-bottom: 20px;
+    }
+    body .ow_mailbox_left {
+        width: 100%;
+        float: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        background-color: #fff;
+    }
+    body .ow_mailbox_left .ow_mailbox_left_body {
+        width: 100% !important;
+        position: static;
+    }
+    body #conversationItemListSub {
+        width: 100% !important;
+    }
+    body .ow_mailbox_right {
+        width: 100%;
+        float: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        background-color: #fff;
+    }
+    .ow_mailbox_left_body .jspContainer {
+        height: 252px !important;
+    }
+    body .ow_mailbox_right {
+        margin-top: 20px;
+    }
+    body .ow_mailbox_username {
+        min-width: 0;
+    }
+    body .ow_mailbox_table .ow_mailbox_left .ow_mailbox_left_body,
+    body .ow_mailbox_table .ow_mailbox_search,
+    body .ow_mailbox_conv_options {
+        border-right-width: 0;
+    }
+    body .ow_mailbox_table {
+        border-width: 0;
+    }
+    body .ow_mailbox_table .ow_mailbox_left,
+    body .ow_mailbox_table .ow_mailbox_right {
+        border: 1px solid #ececec;
+    }
+    body .ow_mailbox_table .ow_mailbox_cap {
+        height: 82px;
+    }
+    body .ow_mailbox_table .ow_mailbox_right .ow_mailbox_cap {
+        padding-left: 86px;
+    }
+    body .ow_mailbox_convers_info.mails,
+    body .ow_mailbox_convers_info.chats {
+        background-position: 8px 36px;
+    }
+    body .ow_mailbox_table .ow_mailbox_cap .ow_mailbox_convers_actions {
+        margin-top: 30px;
+    }
+    body .ow_mailbox_table .ow_mailbox_search input {
+        font-size: 90%;
+        height: 32px;
+        line-height: 18px;
+    }
+    body .ow_mailbox_search .ow_btn_close_search {
+        top: 22px;
+    }
+    html body .ow_mailbox_form .ow_mailbox_message_input textarea {
+        display: none;
+    }
+    html body .ow_mailbox_message_input .jhtmlarea,
+    body .ow_mailbox_form .ow_attachment_btn,
+    body .ow_mailbox_form .ow_attachment_icons,
+    #conversationTextarea {
+        display: block !important;
+    }
+    textarea#conversationTextarea {
+        margin: 0;
+        border: none;
+    }
+    .ow_mailbox_form .jhtmlarea .input_ws_cont {
+        display: none;
+    }
+    html body .ow_mailbox_message_input .jhtmlarea {
+        width: 100% !important;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    .ow_mailbox_form div.jhtmlarea {
+        padding: 0;
+    }
+    .ow_mailbox_request_item .console_list_ipc_item,
+    .ow_chat_request_item .console_list_ipc_item {
+        padding-left: 20px;
+        background-position: 2px 27px;
+    }
+    .ow_chat_dialog_wrap .ow_mailchat_new_message.ow_chat_dialog {
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        position: fixed;
+        right: 0;
+        width: 100%;
+    }
+    .ow_mailbox_left_loading .ow_mailbox_left_body {
+        background-position: center 120px;
+    }
+    html body .ow_mailbox_table_empty .ow_mailbox_left div.ow_mailbox_no_content {
+        padding-top: 117px;
+        padding-bottom: 117px;
+    }
+    /*Fonts*/
+    html {
+        font-size: 14px;
+    }
+    body {
+        font-size: 1.15rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+    .ow_box_menu, ul.ow_bl a {
+        line-height: 25px;
+    }
+    .ow_box_menu a, ul.ow_bl a {
+        height: auto;
+    }
+    .ow_box_menu a span{
+        font-size: 1.1rem;
+    }
+    ul.ow_bl a  {
+        font-size: 1.1rem;
+    }
+    .ow_ipc_header a {
+        font-size: 1.1rem;
+    }
+    .ow_small {
+        font-size: 1.05rem;
+        line-height: 18px;
+    }
+    .ow_ipc_toolbar,
+    .ow_ipc_toolbar .ow_ipc_date,
+    .ow_ipc_date {
+        font-size: 1.1rem;
+    }
+    html body a.ow_lbutton, html body span.ow_lbutton {
+        font-size: 1rem;
+        line-height: 1.2em;
+    }
+    .ow_comments_item_header a {
+        font-size: 1.1rem;
+    }
+    html body .ow_sidebar .ow_tiny,
+    html body .ow_console .ow_tiny,
+    .ow_tiny {
+        font-size: 1rem;
+    }
+    input[type="text"],
+    input[type="password"],
+    textarea,
+    select,
+    div.jhtmlarea,
+    .ow_photo_upload_description,
+    .ow_photo_preview_edit .CodeMirror {
+        font-size: 1.15rem;
+    }
+    body .ow_mailbox_convers_info .ow_mailbox_convers_info_string a,
+    body .ow_mailbox_convers_info_date {
+        font-size: inherit;
+    }
+    body .ow_mailbox_convers_info .ow_mailbox_convers_preview {
+        font-size: 1.1rem;
+    }
+    body .ow_mailbox_message_header a,
+    body .ow_mailbox_message_content {
+        font-size: 1.1rem;
+    }
+    body .ow_mailbox_message_date {
+        font-size: 1rem;
+    }
+    .ow_console,
+    .ow_console_item a,
+    .ow_console_lang_item {
+        font-size: 1.1rem;
+    }
+    ul.ow_console_dropdown .ow_console_dropdown_cont {
+        text-align: right;
+    }
+    .ow_console_dropdown_cont a {
+        line-height: 24px;
+    }
+    .ow_credits_links a {
+        font-size: 1rem;
+    }
+    .ow_supernarrow {
+        font-size: 1.1rem;
+    }
+    .ow_footer_menu {
+        font-size: 1.1rem;
+    }
+    a.ow_context_action_value,
+    .ow_context_action_list a {
+        font-size: 1rem;
+    }
+    input[type="submit"], input[type="button"] {
+        font-size: 1.15rem;
+    }
+    .ow_attachment_btn span.ow_button input[type="submit"],
+    .ow_attachment_btn span.ow_button input[type="button"] {
+        line-height: 21px;
+    }
+    .ow_content_menu{
+        border-bottom: none;
+    }
+    .ow_content_menu li {
+        display: block;
+        float: none;
+    }
+    .ow_content_menu li a {
+        font-size: 1.2rem;
+    }
+    .ow_content_menu li.active {
+        border-color: #ccd6de;
+    }
+    h1 {
+        font-size: 1.7rem;
+        line-height: 30px;
+    }
+    body .ow_explore_photos_show {
+        font-size: 1rem;
+    }
+    body .ow_searchbar input[type="text"] {
+        font-size: 1rem;
+    }
+    body .ow_box_toolbar {
+        font-size: 0.95rem;
+    }
+    .ow_console_mailbox_title {
+        font-size: 1rem;
+    }
+    .ow_console_mailbox_title .ow_mailbox_convers_info_date {
+        font-size: 0.9rem;
+    }
+    .ow_console_mailbox_txt,
+    .ow_chat_request_item .ow_console_mailbox_txt {
+        font-size: 1rem;
+    }
+    a.ow_lbutton, span.ow_lbutton {
+        font-weight: normal;
+    }
+    body .ow_chat_in_dialog .ow_time_block p span.ow_time_text {
+        font-size: 0.9rem;
+    }
+    body .ow_dialog_date_cap,
+    body .ow_chat_dialog .ow_author_block span.ow_chat_item_author,
+    .ow_top_panel .ow_count_txt,
+    body .ow_chat_block_main .ow_chat_search input[type="text"],
+    body .ow_chat_block_main .ow_chat_search input[type="password"],
+    body .ow_dialog_in_item p,
+    body span.ow_chat_in_item_author,
+    body span.ow_chat_in_item_text,
+    body .ow_chat_dialog .ow_chat_subject_block input {
+        font-size: 1rem;
+    }
+    .ow_mailbox_log .ow_time_block p span.ow_time_text {
+        font-size: 0.9rem;
+    }
+    /*Buttons*/
+    .ow_attachments a {
+        height: 26px;
+        width: 26px;
+        background-position: -173px 2px;
+    }
+    .ow_attachment_btn span.ow_button input[type="submit"],
+    .ow_attachment_btn span.ow_button input[type="button"] {
+        height: 26px;
+    }
+    body .ow_chat_mailchat_buttons .ow_attachment_btn span.ow_button input[type="submit"],
+    body .ow_chat_mailchat_buttons .ow_attachment_btn span.ow_button input[type="button"] {
+
+    }
+    /*Avatar size*/
+    .ow_avatar {
+        width: 60px;
+        height: 60px;
+    }
+    .ow_avatar img {
+        width: 60px !important;
+        height: 60px !important;
+        border-radius: 60px !important;
+        -moz-border-radius: 60px !important;
+        -webkit-border-radius: 60px !important;
+    }
+    .ow_ipc_info {
+        margin-left: 77px;
+    }
+    .ow_canvas .ow_newsfeed_body {
+        margin-left: 70px;
+        min-height: 70px;
+    }
+    .ow_user_list_data {
+        margin-left: 73px;
+    }
+    .ow_mini_ipc_picture img,
+    .ow_mini_ipc_picture .ow_avatar,
+    .ow_mini_ipc_picture .ow_avatar img {
+        width: 52px !important;
+        height: 52px !important;
+    }
+    .ow_mini_ipc_picture {
+        width: 62px;
+        margin-right: -6 2px;
+    }
+    .ow_mini_ipc_info {
+        margin-left: 66px;
+    }
+    .ow_feed_comments_input_sticky .ow_comments_item_picture .ow_avatar img,
+    .ow_comments_input_wrap .ow_comments_item_picture .ow_avatar img {
+        width: 52px !important;
+        height: 52px !important;
+    }
+    .ow_feed_comments_input_sticky .ow_comments_item_info,
+    .ow_comments_input_wrap .ow_comments_item_info {
+        margin-left: 68px;
+    }
+    .ow_comments_item .ow_comments_item_picture .ow_avatar img {
+        width: 52px !important;
+        height: 52px !important;
+    }
+    body .ow_comments_item .ow_comments_item_picture .ow_avatar {
+        width: 52px;
+        height: 52px;
+    }
+    body .ow_comments_item .ow_comments_item_picture {
+        width: 52px;
+        margin-right: -52px;
+    }
+    body .ow_comments_item .ow_comments_item_info {
+        margin-left: 68px;
+    }
+    .ow_comments_item_header {
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    body .ow_mailbox_convers_info_body {
+        margin-left: 77px;
+    }
+    body .ow_mailbox_avatar {
+        width: 70px;
+    }
+    body .ow_mailbox_cap .ow_mailbox_avatar {
+        margin-left: -70px;
+    }
+    .ow_console .ow_avatar {
+        width: 60px;
+        height: 60px;
+    }
+    .ow_console_ntf_cont, .ow_console_invt_cont {
+        margin-left: 68px;
+    }
+    .ow_console li.ow_chat_request_item .ow_console_invt_cont,
+    .ow_console li.ow_mailbox_request_item .ow_console_invt_cont {
+        margin-left: 68px;
+    }
+    .ow_console li.ow_chat_request_item .ow_avatar,
+    .ow_console li.ow_mailbox_request_item .ow_avatar {
+        width: 60px;
+        height: 60px;
+        margin-right: -60px;
+    }
+    /*-------------------------Photo-------------------------*/
+    body .ow_photo_list_wrap.ow_photo_no_sidebar div.ow_photo_item_wrap,
+    body .ow_photo_list_wrap.ow_photo_no_sidebar .ow_photo_list.ow_photo_pint_mode div.ow_photo_item_wrap,
+    body .ow_photo_list_wrap.ow_photo_no_sidebar div.ow_photo_item_wrap.ow_photo_album {
+        width: 50%;
+    }
+    body .ow_photo_list_wrap.ow_photo_no_sidebar .ow_photo_list.ow_photo_pint_mode div.ow_photo_item_wrap {
+        height: 300px;
+    }
+    #photo-list-search {
+        float: none;
+    }
+    .ow_fw_menu .ow_fw_btns {
+        margin-bottom: 8px;
+    }
+    .ow_fw_menu {
+        border: none;
+        padding: 0;
+    }
+    .ow_fw_menu .ow_searchbar {
+        margin-top: 4px;
+        padding-right: 24px;
+        width: 100%;
+        display: inline-block !important;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    .ow_fw_menu .ow_searchbar_input,
+    .ow_fw_menu .ow_searchbar_input input {
+        width: 100% !important;
+    }
+    .ow_fw_menu .ow_searchbar .ow_searchbar_btn {
+        margin-right: -24px;
+    }
+    .ow_photo_upload_bottom > .ow_left,
+    .ow_photo_upload_wrap .ow_suggest_field input {
+        width: 100% !important;
+    }
+    body .ow_photo_upload_wrap .ow_photo_preview_block_wrap .ow_photo_preview_edit {
+        width: 48%;
+        margin-left: 1% !important;
+        margin-right: 1% !important;
+        margin-bottom: 10px !important;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    .ow_photo_preview_action {
+        overflow: hidden;
+    }
+    body .CodeMirror-scroll,
+    body .CodeMirror-sizer {
+        width: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+    body .CodeMirror-hscrollbar {
+        display: none !important;
+    }
+    .new-album textarea {
+        margin-bottom: 16px;
+    }
+    .ow_photoview_info_wrap {
+        display: none !important;
+    }
+    .ow_photoview_stage_wrap {
+        width: 100% !important;
+    }
+    .floatbox_container {
+        width: 100% !important;
+    }
+    /*Forum*/
+    .forum_add_post .ow_left,
+    .forum_add_post .ow_right {
+        width: 100% !important;
+        float: none;
+    }
+
+}

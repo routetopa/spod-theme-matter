@@ -260,18 +260,24 @@ body > .ow_page_wrap {
 .ow_footer {
     padding:1px 0px;
     color: #FFFFFF; /** OW_Control type:color, key:textIconsColor, section:2. Colors, label:4. Text/Icons **/
-	background: #1976D2; /** OW_Control type:color, key:darkPrimaryColor, section:2. Colors, label:1. Dark primary **/
-	height: 96px;
 	position: relative;
 	margin-top: -99px;
 	clear: both;
 }
 .ow_footer .ow_canvas {
 	width: 100%;
+    background: #1976D2; /** OW_Control type:color, key:darkPrimaryColor, section:2. Colors, label:1. Dark primary **/
+    padding-bottom: 1.5em;
 }
 .ow_footer .ow_copyright{
 	float: left;
 	padding-left: 10px;
+    font-size: 90%;
+    max-width: 280px;
+}
+.ow_footer .ow_copyright img.eu-flag {
+    display: block;
+    margin-bottom: 8px;
 }
 /* Columns */
 .ow_column {
@@ -326,6 +332,18 @@ body > .ow_page_wrap {
 }
 a.ow_logo:hover {
 	text-decoration: none;
+}
+
+.ow_header {
+    position: relative;
+}
+
+.ow_header_version {
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    color: #dddddd;
+    text-shadow: 1px 1px 0 #000;
 }
 .ow_header_img {
     width: 100%;

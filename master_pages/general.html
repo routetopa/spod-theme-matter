@@ -11,6 +11,7 @@
 			<div class="ow_menu_wrap">{component class='BASE_CMP_MainMenu' responsive=true}</div>
 	</div>
 	<div class="ow_header">
+		<div class="ow_header_version">v.0.1/Antares</div>
         <div class="ow_header_pic"></div>
 	</div>
 	{*if isset($imageControlValues.headerImage.src)}
@@ -39,9 +40,11 @@
 		<div class="ow_page clearfix">
 			{$bottom_menu}
 			<div class="ow_copyright">
-				{text key='base+copyright'}
+				<img src="{$themeImagesUrl}eu_flag_24.png" class="eu-flag" alt="European Union Flag" />
+				This project has received funding from <i>European Union's Horizon 2020 research
+				and innovation programme</i> under grant agreement No 645860.
 			</div>
-			<div style="float:right;padding-bottom: 30px;">
+			<div style="float:right; padding-bottom: 30px;">
 				{$bottomPoweredByLink}
 			</div>
 		</div>
