@@ -344,6 +344,7 @@ a.ow_logo:hover {
     bottom: 1em;
     color: #dddddd;
     text-shadow: 1px 1px 0 #000;
+    text-align: right;
 }
 .ow_header_img {
     width: 100%;
@@ -1815,6 +1816,7 @@ div.jhtmlarea,
     -moz-box-sizing: content-box;
     box-sizing: content-box;
     transition: all .3s;
+    font-family: "Roboto", sans-serif;
 }
 
 input[type=text]:disabled, input[type=text][readonly="readonly"],
@@ -1857,7 +1859,9 @@ textarea:focus:not([readonly]) {
     box-shadow: 0 1px 0 0 #2196F3; /** OW_Control type:color, key:primaryColor, section:2. Colors, label:2. Primary **/
 }
 
-
+textarea {
+    background-color: #fafafa;
+}
 
 /***************
   Radio Buttons
