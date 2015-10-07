@@ -4726,6 +4726,7 @@ table.ow_form th {
 				box-shadow: none;
 				-moz-box-shadow: none;
 				-webkit-box-shadow: none;
+                box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			}
 			body .ow_chat_in_block {
 				border-bottom: 0;
@@ -4845,6 +4846,7 @@ table.ow_form th {
 			}
 			body .ow_mailchat_new_message.ow_chat_dialog {
 				border: 1px solid #eff2f5;
+                box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			}
 			body .ow_diagonal_puller {
 				background-image: url(images/diagonal_puller.png);
@@ -4859,9 +4861,6 @@ table.ow_form th {
 				border-radius: 0;
 				-moz-border-radius: 0;
 				-webkit-border-radius: 0;
-				box-shadow: none;
-				-moz-box-shadow: none;
-				-webkit-box-shadow: none;
 			}
 			html body .ow_chat_dialog .ow_chat_block {
 				border: none;
@@ -4947,10 +4946,19 @@ table.ow_form th {
 			body .ow_mailchat_autocomplete ul li a:hover {
 				background-color: #fff;
 			}
+            body .ow_chat_dialog .ow_chat_subject_block {
+                padding: 0 6px 0;
+            }
 			body .ow_chat_dialog .ow_chat_subject_block input,
 			.ow_mailchat_new_message.ow_chat_dialog .ow_author_block.ow_mailchat_selected_user {
 				border: none;
+                margin: 0;
+                padding: 0;
 			}
+            body .ow_chat_dialog .ow_chat_subject_block input:focus {
+                transition: .2s;
+                border: none;
+            }
 			body .ow_mailchat_new_message .ow_chat_mailchat_inputarea,
 			body .ow_mailchat_new_message .ow_file_attachment_info {
 				border-color: #eff2f5;
