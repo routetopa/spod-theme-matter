@@ -428,6 +428,9 @@ a.ow_logo:hover {
 	float: right;
     padding: 8px 2px 0 0;
 }
+.ow_dnd_configurable_component .ow_box_icons a {
+    padding: 2px !important;
+}
 .ow_dnd_configurable_component.ow_box_cap .ow_box_icons {
 	padding: 2px 0px 0 0;
 }
@@ -2282,6 +2285,7 @@ input[type=button]:hover,
 .dashboard-NEWSFEED_CMP_MyFeedWidget .ow_status_update_btn_block .ow_attachments a,
 .group-NEWSFEED_CMP_EntityFeedWidget .ow_status_update_btn_block .ow_attachments a,
 .index-NEWSFEED_CMP_SiteFeedWidget .ow_status_update_btn_block .ow_attachments a,
+.ow_dnd_configurable_component .ow_box_icons a,
 span.ow_button,
 .ow_box_toolbar li {
     display: inline-block;
@@ -2296,6 +2300,7 @@ span.ow_button,
 .dashboard-NEWSFEED_CMP_MyFeedWidget .ow_status_update_btn_block .ow_attachments a,
 .group-NEWSFEED_CMP_EntityFeedWidget .ow_status_update_btn_block .ow_attachments a,
 .index-NEWSFEED_CMP_SiteFeedWidget .ow_status_update_btn_block .ow_attachments a,
+.ow_dnd_configurable_component .ow_box_icons a,
 span.ow_button {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
@@ -2305,6 +2310,7 @@ span.ow_button {
 .dashboard-NEWSFEED_CMP_MyFeedWidget .ow_status_update_btn_block .ow_attachments a:hover,
 .group-NEWSFEED_CMP_EntityFeedWidget .ow_status_update_btn_block .ow_attachments a:hover,
 .index-NEWSFEED_CMP_SiteFeedWidget .ow_status_update_btn_block .ow_attachments a:hover,
+.ow_dnd_configurable_component .ow_box_icons a:hover,
 span.ow_button:hover input[type=submit],
 span.ow_button:hover input[type=button]{
     color: #fff;
