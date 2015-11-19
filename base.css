@@ -2263,13 +2263,13 @@ input[type=button]:hover,
 			textarea.ow_inputready {
 				color: #999999;
 			}
-			/* temp hack for decorating buttons in FF */
+			/* temp hack for decorating buttons in FF
 			body:not(:-moz-handler-blocked) input[type=submit],
 			body:not(:-moz-handler-blocked) input[type=button]{
 				padding-top: 0px;
 				padding-right: 23px;
 			}
-			/* End of temp hack for decorating buttons in FF */
+			End of temp hack for decorating buttons in FF */
 
 			html body div span.ow_button input[type=submit],
 			html body div span.ow_button input[type=button]{
