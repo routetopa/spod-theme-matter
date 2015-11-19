@@ -2557,8 +2557,9 @@ span.ow_button:hover input[type=button]{
 	    .ow_attachments a.video{
 				background:url(images/wysiwyg.png) -197px 1px no-repeat;
 			}
+
 .ow_attachment_btn input[name="ode_open_dialog"] {
-    background-image: url('images/ic_add.svg');
+    background-image: url('images/ic_add_20.png');
 }
 			.ow_attachments a.attach {
 				background: url(images/ic_attach_big.svg) no-repeat 0 0;
