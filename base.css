@@ -3980,7 +3980,7 @@ table.ow_form th {
 			}
 
 			html body div .ow_miniic_comment{ background: url(images/miniic_set.svg) no-repeat -38px 0px; }
-			html body div .ow_miniic_like { background: url(images/miniic_set.svg) no-repeat 0px 0px; }
+			html body div .ow_miniic_like { background: url(images/ic_like_32.png) no-repeat 0px 0px; }
 			html body div .ow_miniic_delete{ background-image: url(images/miniic_x.png); }
 
 			html body div .ow_tinyic_delete{ background-image: url(images/tinyic_delete.png); }
