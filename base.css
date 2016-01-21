@@ -2558,9 +2558,14 @@ span.ow_button:hover input[type=button]{
 				background:url(images/wysiwyg.png) -197px 1px no-repeat;
 			}
 
-.ow_attachment_btn input[name="ode_open_dialog"] {
-    background-image: url('images/ic_add_20.png');
-}
+            .ow_attachment_btn input[name="ode_open_dialog"] {
+                background-image: url('images/datalet_rect.svg');
+                height: 36px;
+                width: 36px;
+                padding: 0px;
+                /*margin: 0px;*/
+                background-position: right;
+            }
 			.ow_attachments a.attach {
 				background: url(images/ic_attach_big.svg) no-repeat 0 0;
 				height: 26px;
@@ -3081,6 +3086,9 @@ span.ow_button:hover input[type=button]{
 				-moz-border-radius: 50%;
 				-webkit-border-radius: 50%;
 			}
+            .ow_comments_input .ow_attachment_icons a {
+                margin-left: 2px;
+            }
 			.ow_attachments input[type="file"] {
 				cursor: pointer;
 				float: right;
