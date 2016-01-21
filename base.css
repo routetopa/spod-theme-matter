@@ -95,10 +95,20 @@ del {
 .clearfix:after {
     content: ".";
     display: block;
-    /*clear: both;*/
+    clear: both;
     visibility: hidden;
     line-height: 0;
     height: 0;
+}
+
+/* FIREFOX FIX */
+#topBar .clearfix:after {
+	content: ".";
+	display: block;
+	clear: none;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
 }
 .clearfix {display: inline-block;}
 html[xmlns] .clearfix {display: block;}
