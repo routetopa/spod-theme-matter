@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <theme>
-    <name>Route to PA: Matter</name>
-    <key>rtpa_matter</key>
+    <name>SPOD Matter</name>
+    <key>spod_theme_matter</key>
     <version>1.0</version>
     <compatibility>1.7 and higher</compatibility>
     <description>Standard Route-to-PA theme</description>
@@ -10,8 +10,8 @@
     <authorEmail>isislab@routetopa.eu</authorEmail>
     <authorUrl>http://www.isislab.it/</authorUrl>
     <developerKey>2b810a795fa9b5b5d138ac0652de1a7e</developerKey>
-    <build>0</build>
-    <copyright>MISSING INFO</copyright>
-    <license>MISSING INFO</license>
-    <licenseUrl>MISSING INFO</licenseUrl>
+    <build>1000</build>
+    <copyright>The ROUTE-TO-PA Project</copyright>
+    <license>The MIT License</license>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>   
 </theme>
