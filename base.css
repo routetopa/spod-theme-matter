@@ -673,6 +673,7 @@ body.ow_menu_active {
 	padding-right: 0;
 }
 
+/* ISISLAB */
 span.ow_signin_label {
 	color: #ffffff;
 }
@@ -681,6 +682,7 @@ span.ow_signin_label:hover {
 	color: #ffffff;
 	font-weight: 700;
 }
+/* ISISLAB */
 
 .ow_console_item a:hover {
 	text-decoration: none;
