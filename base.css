@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5 {
     color: #2196F3; /** OW_Control type:color, key:primaryColor, section:2. Colors, label:2. Primary **/
 	margin: 0;
 	padding: 0;
-	font-weight: 300;
+	font-weight: 200;
     font-family: 'Roboto', sans-serif;
     line-height: 1.1;
 }
@@ -241,6 +241,7 @@ html body div .ow_page h1 {
 body > .ow_page_wrap {
 	min-height: 100%;
 	padding-top: 56px;
+	background: #efefef;
 }
 .ow_page_padding {
 	padding-bottom: 99px;
@@ -259,12 +260,14 @@ body > .ow_page_wrap {
 	margin: 0px auto 16px;	
 }
 .ow_page_container .ow_page {
-    padding: 28px 16px 16px;
+    padding: 0px 16px 16px;
     min-height: 400px;
+	background: #efefef;
 }
 .ow_content {
 	float: none;
 	width: 100%;
+	background: #efefef;
 }
 /* Footer */
 .ow_footer {
@@ -303,7 +306,7 @@ body > .ow_page_wrap {
     overflow: hidden;    
 }
 .ow_superwide {
-    width: 75%;
+    width: 100%;
     overflow: hidden;   
 }
 .ow_supernarrow {
@@ -669,8 +672,12 @@ body.ow_menu_active {
 	margin-right: 0;
 	padding-right: 0;
 }
+
 .ow_console_item a {
+	color: white;
+	font-weight: 700;
 }
+
 .ow_console_item a:hover {
 	text-decoration: none;
 }
@@ -1822,7 +1829,7 @@ div.jhtmlarea,
     height: 3rem;
     width: 100%;
     font-size: 1rem;
-    margin: 0 0 15px 0;
+    /*margin: 0 0 15px 0;*/margin: 0px;
     padding: 0;
     box-shadow: none;
     -webkit-box-sizing: content-box;
@@ -1873,7 +1880,7 @@ textarea:focus:not([readonly]) {
 }
 
 textarea {
-    background-color: #fafafa;
+    background-color: #ffffff;
 }
 
 /***************
@@ -2399,7 +2406,7 @@ span.ow_button:hover input[type=button]{
 				padding-left: 20px;
 			}
 			.form_auto_click .ow_submit_auto_click{
-				display:none;
+				/*display:none;*/
 			}
 			/* ---- Positive and Negative buttons ---- */
 			html body div .ow_positive input[type=submit],
@@ -4231,6 +4238,21 @@ table.ow_form th {
 			.ow_right {
 				float: right;
 			}
+
+			/* ISISLAB */
+			.ow_right.place_section.right_section.ow_supernarrow {
+				display: none;
+			}
+
+			.ow_left.place_section.ow_narrow {
+				display: none;
+			}
+
+			.ow_right.place_section.ow_wide {
+				width: 100%;
+			}
+			/* ISISLAB */
+
 			.ow_center {
 				text-align: center;
 			}
@@ -5634,10 +5656,10 @@ table.ow_form th {
 				line-height: 24px;
 			}
 			.ow_newsfeed_context_menu {
-				display: none;
+				/*display: none;*/
 				position: absolute;
-				right: 6px;
-				top: 14px;
+				right: 30px;
+				top: 20px;
 			}
 			.ow_newsfeed_control {
 				display: inline-block;
@@ -5719,7 +5741,7 @@ table.ow_form th {
 				background-position: -38px -37px;
 			}
 			body .ow_newsfeed_doublesided_stdmargin {
-				margin: 16px 0px;
+				/*margin: 16px 0px;*/margin: 0px 0px;
 			}
 			body .newsfeed-attachment-preview.item_loaded {
 				width: 98.7%;
@@ -5780,19 +5802,38 @@ table.ow_form th {
 			}
 			.ow_newsfeed .ow_newsfeed_body {
 				margin-left: 56px;
-				padding: 14px 0px 0px;
+				padding: 14px 0px 0px 0px;
+				border-bottom: 1px solid #d9d9d9;
+				box-shadow: 0 0 2px rgba(0,0,0,0.12),0 2px 4px rgba(0,0,0,0.24);
+				background: #ffffff;
 			}
-			.ow_newsfeed_string,
-			.ow_newsfeed_content,
+
+			.ow_newsfeed .ow_newsfeed_body:hover {
+				border-left-color: #2196f3;
+				border-left-style: solid;
+				border-left-width: 3px;
+				margin-left: 53px;
+			}
+
 			.ow_newsfeed_toolbar {
 				padding-left: 16px;
 			}
+
+			.ow_newsfeed_string,
+			.ow_newsfeed_content
+			{
+				padding-left: 16px;
+				padding-right: 16px;
+			}
+
             .ow_newsfeed_item {
-                padding: 20px;
+                padding: 10px 20px 0px 20px;
                 margin: 0.5rem 10px 1rem 10px;
-                border-radius: 2px;
+/*                border-radius: 2px;
                 background-color: #fff;
+				border:1px solid; border-color: #e5e6e9 #dfe0e4 #d0d1d5; border-radius: 3px;*/
             }
+
 			.ow_newsfeed_item  .ow_newsfeed_delimiter {
 				border: none;
 			}
@@ -5807,7 +5848,7 @@ table.ow_form th {
 			.group-NEWSFEED_CMP_EntityFeedWidget .ow_box_cap_empty,
 			.index-NEWSFEED_CMP_SiteFeedWidget .form_auto_click,
 			.index-NEWSFEED_CMP_SiteFeedWidget .ow_box_cap_empty {
-				padding-left: 56px;
+				padding-left: 85px;
 			}
 			/*.profile-NEWSFEED_CMP_UserFeedWidget .ow_status_update_btn_block .ow_attachments a,
 			.dashboard-NEWSFEED_CMP_MyFeedWidget .ow_status_update_btn_block .ow_attachments a,
@@ -5825,6 +5866,7 @@ table.ow_form th {
 			}*/
 			.ow_status_update_btn_block {
 				line-height: 22px;
+				margin-right: 30px;
 			}
 			/* ---- Group styles ---- */
 			body .ow_group_brief_info .details {
@@ -6291,6 +6333,28 @@ table.ow_form th {
 				margin-bottom: 20px;
 				padding-left: 22px;
 			}
+
+			/* CUSTOM STYLE */
+			.newsfeed_update_status_info
+			{
+				width:851px;
+			}
+
+			.datalet_placeholder
+			{
+				padding-top: 15px;
+			}
+
+			#ode_controllet_placeholder
+			{
+				width: 851px;
+				margin-top: 10px;
+				padding: 14px 0 0 0;
+				border-bottom: 1px solid #d9d9d9;
+				box-shadow: 0 0 2px rgba(0,0,0,0.12),0 2px 4px rgba(0,0,0,0.24);
+			}
+			/* CUSTOM STYLE */
+
 
 
 
