@@ -673,8 +673,12 @@ body.ow_menu_active {
 	padding-right: 0;
 }
 
-.ow_console_item a {
-	color: white;
+span.ow_signin_label {
+	color: #ffffff;
+}
+
+span.ow_signin_label:hover {
+	color: #ffffff;
 	font-weight: 700;
 }
 
