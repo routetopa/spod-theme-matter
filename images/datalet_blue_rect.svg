@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.91pre2 r13516"
    viewBox="0 0 20 20"
-   sodipodi:docname="datalet_grey_rect.svg">
+   sodipodi:docname="datalet_blue_rect.svg">
   <defs
      id="defs4223" />
   <sodipodi:namedview
@@ -59,7 +59,7 @@
        id="path5911"
        inkscape:connector-curvature="0" />
     <rect
-       style="opacity:1;fill:#5b646a;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#2196F3;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
        id="rect4136"
        width="20"
        height="20"
