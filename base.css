@@ -6376,6 +6376,19 @@ table.ow_form th {
 				border-bottom: 1px solid #d9d9d9;
 				box-shadow: 0 0 2px rgba(0,0,0,0.12),0 2px 4px rgba(0,0,0,0.24);
 			}
+
+			.comment_datalet_placeholder
+			{
+				margin-left: 63px;
+				max-width: 90%;
+				overflow: hidden;
+			}
+
+			.ow_newsfeed_agora_notification_avatar {
+				height: 45px;
+				width: 45px;
+				float: left;
+			}
 			/* CUSTOM STYLE */
 
 
