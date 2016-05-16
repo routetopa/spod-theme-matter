@@ -761,6 +761,9 @@ body .ow_console_dropdown_pressed.ow_console_item a.ow_console_item_link {
 .ow_console_lang {
 	padding: 4px;
 }
+.ow_console_lang_en {
+	background: url(/ow_static/plugins/base/css/images/flags/GB.png) no-repeat 0px 3px;
+}
 .ow_console_lang_item {
 	margin-bottom: 1px;
 	margin-top: -2px;
