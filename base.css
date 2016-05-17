@@ -335,7 +335,7 @@ body > .ow_page_wrap {
 	padding-top: 50px;
 }
 .ow_logo {
-	background-image: url(images/logo.png); /** OW_Control type:image, key:logoImage, section:1. General Settings, label: 3. Logo image **/
+	background-image: url(images/logo.png); /** OW_Control type:image, key:logoImage, section:1. General Settings, label: 4. Logo image **/
 	background-size: auto 41px;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -365,7 +365,7 @@ a.ow_logo:hover {
 .ow_header_pic {
     background-image: url(images/header.jpg); /** OW_Control type:image, key:headerImage, section:1. General Settings, label:2. Header background image **/
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: bottom left; /** OW_Control type:text, key:headerImagePosition, section:1. General Settings, label:3. Header background image position **/
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -760,6 +760,9 @@ body .ow_console_dropdown_pressed.ow_console_item a.ow_console_item_link {
 /*Console select language styles*/
 .ow_console_lang {
 	padding: 4px;
+}
+.ow_console_lang_en {
+	background: url(/ow_static/plugins/base/css/images/flags/GB.png) no-repeat 0px 3px;
 }
 .ow_console_lang_item {
 	margin-bottom: 1px;
