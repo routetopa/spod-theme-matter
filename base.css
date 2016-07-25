@@ -335,7 +335,7 @@ body > .ow_page_wrap {
 	padding-top: 50px;
 }
 .ow_logo {
-	background-image: url(images/logo.png); /** OW_Control type:image, key:logoImage, section:1. General Settings, label: 4. Logo image **/
+	background-image: url(images/logo.png); /** OW_Control type:image, key:logoImage, section:1. General Settings, label: 6. Logo image **/
 	background-size: auto 41px;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -366,10 +366,8 @@ a.ow_logo:hover {
     background-image: url(images/header.jpg); /** OW_Control type:image, key:headerImage, section:1. General Settings, label:2. Header background image **/
     background-repeat: no-repeat;
     background-position: bottom left; /** OW_Control type:text, key:headerImagePosition, section:1. General Settings, label:3. Header background image position **/
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    height: 300px;
+    background-size: cover; /** OW_Control type:text, key:headerBgSize, section:1. General Settings, label:5. Header background size **/
+    height: 300px; /** OW_Control type:text, key:headerHeight, section:1. General Settings, label:4. Header background height **/
 }
 .ow_header_pic img {
 	height: 0px;
