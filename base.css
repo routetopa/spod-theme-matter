@@ -4264,7 +4264,7 @@ table.ow_form th {
 			}
 
 			/* ISISLAB */
-			.ow_right.place_section.right_section.ow_supernarrow {
+			/*.ow_right.place_section.right_section.ow_supernarrow {
 				display: none;
 			}
 
@@ -4274,7 +4274,38 @@ table.ow_form th {
 
 			.ow_right.place_section.ow_wide {
 				width: 100%;
+			}*/
+			.ow_page_padding, .ow_page_container
+			{
+				width: 100%;
+				height: 100%;
 			}
+
+			.ow_page_container
+			{
+				width: 100%;
+				height: 100%;
+				margin: 0;
+			}
+
+			.clearfix > .ow_left.place_section.ow_narrow
+			{
+				width: 25%;
+			}
+
+			.clearfix > .ow_right.place_section.ow_wide
+			{
+				width: 75%;
+			}
+
+
+			.ow_page_padding > .ow_page_container > .ow_canvas
+			{
+				margin: 0 10%;
+				width: 80%;
+			}
+
+
 			/* ISISLAB */
 
 			.ow_center {
@@ -6361,7 +6392,7 @@ table.ow_form th {
 			/* CUSTOM STYLE */
 			.newsfeed_update_status_info
 			{
-				width:851px;
+				padding-right: 30px;
 			}
 
 			.datalet_placeholder
