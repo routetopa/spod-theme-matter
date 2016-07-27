@@ -4291,6 +4291,7 @@ table.ow_form th {
 			.clearfix > .ow_left.place_section.ow_narrow
 			{
 				width: 25%;
+				padding-top: 8px;
 			}
 
 			.clearfix > .ow_right.place_section.ow_wide
@@ -6422,6 +6423,29 @@ table.ow_form th {
 				float: left;
 			}
 			/* CUSTOM STYLE */
+
+
+			/* STYLE WIDGETS */
+			.ow_left .ow_dnd_widget
+			{
+				padding: 12px;
+				margin: 32px 4px;
+				border-bottom: 1px solid #d9d9d9;
+				box-shadow: 0 0 2px rgba(0,0,0,0.12),0 2px 4px rgba(0,0,0,0.24);
+				background: #ffffff;
+			}
+
+			.ow_box_cap_right .ow_box_cap_body h3
+			{
+				margin: 0px;
+			}
+
+			.ow_dnd_widget .ow_box_empty
+			{
+				margin: 0px;
+			}
+
+			/* STYLE WIDGETS */
 
 
 
