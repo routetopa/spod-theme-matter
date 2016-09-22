@@ -760,7 +760,8 @@ body .ow_console_dropdown_pressed.ow_console_item a.ow_console_item_link {
 	padding: 4px;
 }
 .ow_console_lang_en {
-	background: url(/ow_static/plugins/base/css/images/flags/GB.png) no-repeat 0px 3px;
+	/*background: url(/ow_static/plugins/base/css/images/flags/GB.png) no-repeat 0px 3px;*/
+	background: transparent;
 }
 .ow_console_lang_item {
 	margin-bottom: 1px;
@@ -6486,6 +6487,11 @@ table.ow_form th {
 			.ow_status_update_btn_block .ow_attachment_btn:first-child .ow_button
 			{
 				border-radius: 10px 0px 10px 0px;
+			}
+
+			span.ow_console_lang_fr, span.ow_console_lang_it, span.ow_console_lang_nl
+			{
+				background: transparent;
 			}
 			/* ODE */
 
