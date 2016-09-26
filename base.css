@@ -3113,7 +3113,8 @@ span.ow_button:hover input[type=button]{
 			}
 			.ow_comments_input_wrap .ow_comments_input .ow_attachment_icons {
 				position: absolute;
-				top: 5px;
+				/*top: 5px;*/
+				bottom: 6px;
 				right: 4px;
 			}
 			.ow_comments_input .ow_attachments a {
