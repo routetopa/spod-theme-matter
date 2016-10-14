@@ -3668,11 +3668,7 @@ table.ow_form th {
 				margin-top: 0px;
 				margin-left: 0px;
 			}
-			.ow_ipc_info{
-				margin-left: 56px;
-				padding: 14px 16px 16px 16px;
-				border: 1px solid #eff2f5;
-			}
+
 			.ow_ipc_header{
 				padding: 0px 0px 0px;
 				margin: 0px 0px 6px;
@@ -4849,9 +4845,10 @@ table.ow_form th {
 				background-image: url(images/chat_btn_close_search.png);
 			}
 			.ow_count_block span.ow_count_txt {
-				color: #9b9a9d;
+				color: #FFFFFF;
 				font-weight: normal;
 				font-size: 14px;
+				line-height: 20px;
 			}
 			body .ow_chat_dialog_wrap .ow_count_bg,
 			body .ow_chat .ow_count_bg {
@@ -4971,9 +4968,9 @@ table.ow_form th {
 				border: none;
 			}
 			body .ow_chat_dialog .ow_author_block {
-				border-width: 1px 1px 0 1px;
+				/*border-width: 1px 1px 0 1px;
 				border-style: solid;
-				border-color: #eff2f5;
+				border-color: #eff2f5;*/
 			}
 			body .ow_chat_dialog .ow_mailchat_select_user.ow_author_block {
 				border-width: 0;
@@ -5020,9 +5017,9 @@ table.ow_form th {
 			}
 			.ow_chat_block .ow_dialog_item.even .ow_dialog_in_item,
 			.ow_chat_block .ow_dialog_item.odd .ow_dialog_in_item {
-				border-radius: 15px;
-				-moz-border-radius: 15px;
-				-webkit-border-radius: 15px;
+				border-radius: 4px;
+				-moz-border-radius: 4px;
+				-webkit-border-radius: 4px;
 				background: #cad4dd;
 				border-color: #cad4dd;
 				font-size: 13px;
@@ -6494,8 +6491,99 @@ table.ow_form th {
 			{
 				background: transparent;
 			}
+
+			div .ow_events_right
+			{
+				width: 75%;
+			}
 			/* ODE */
 
+			/* STYLE EVENTS */
+			.ow_ipc_info{
+				margin-left: 56px;
+				margin-top: 4px;
+				padding: 8px;
+				border-bottom: 1px solid #d9d9d9;
+				box-shadow: 0 0 2px rgba(0,0,0,0.12),0 2px 4px rgba(0,0,0,0.24);
+				background: #ffffff;
+				width: calc(100% - 76px);
+			}
 
+			.ow_ipc_info:hover{
+				border-left-color: #2196f3;
+				border-left-style: solid;
+				border-left-width: 3px;
+				margin-left: 53px;
+			}
 
+			h1.ow_stdmargin.ow_ic_calendar + div.ow_content
+			{
+				padding: 12px;
+				border-bottom: 1px solid #d9d9d9;
+				box-shadow: 0 0 2px rgba(0,0,0,0.12),0 2px 4px rgba(0,0,0,0.24);
+				background: #ffffff;
+			}
 
+			.ow_event_add_datalet > span.ow_button
+			{
+				border-radius: 50%;
+			}
+
+			.ow_attachment_btn_event {
+				float: left;
+				margin: 0 0 0 6px;
+				padding: 0;
+			}
+
+			.datalet_placeholder_event
+			{
+				margin-top: 64px;
+			}
+
+			form[name="event_add"], form[name="event_edit"]
+			{
+				padding: 12px;
+				border-bottom: 1px solid #d9d9d9;
+				box-shadow: 0 0 2px rgba(0,0,0,0.12),0 2px 4px rgba(0,0,0,0.24);
+				background: #ffffff;
+				margin: 8px;
+			}
+			/* STYLE EVENTS */
+
+/* CHAT */
+.ow_chat_dialog_active.ow_chat_dialog .ow_author_block{
+	padding: 8px 31px 8px 42px;
+	background-color: #404040;
+}
+
+.ow_chat_item_author_wrap .ow_chat_item_author span {
+	display: inline-block;
+	vertical-align: top;
+	margin:0 2px 0 8px;
+	line-height: 18px;
+	height: 18px;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.ow_chat_block .ow_dialog_item.even .ow_dialog_in_item
+{
+	background-color: #00bcd4;
+}
+
+.ow_chat_block .ow_dialog_item.odd .ow_dialog_in_item
+{
+	background-color: #9E9E9E;
+}
+
+.ow_chat_block .ow_top_panel .ow_count_block,
+.ow_chat_block .ow_bot_panel .ow_count_block {
+	padding:5px 0;
+	margin:0;
+	text-align:center;
+	color:#000;
+	font-weight:normal;
+	visibility:visible;
+	background-color: #404040;
+}
+/* CHAT */
