@@ -6550,40 +6550,48 @@ table.ow_form th {
 			}
 			/* STYLE EVENTS */
 
-/* CHAT */
-.ow_chat_dialog_active.ow_chat_dialog .ow_author_block{
-	padding: 8px 31px 8px 42px;
-	background-color: #404040;
-}
+			/* CHAT */
+			.ow_chat_dialog_active.ow_chat_dialog .ow_author_block{
+				padding: 8px 31px 8px 42px;
+				background-color: #404040;
+			}
 
-.ow_chat_item_author_wrap .ow_chat_item_author span {
-	display: inline-block;
-	vertical-align: top;
-	margin:0 2px 0 8px;
-	line-height: 18px;
-	height: 18px;
-	font-size: 14px;
-	color: #FFFFFF;
-}
+			.ow_chat_item_author_wrap .ow_chat_item_author span {
+				display: inline-block;
+				vertical-align: top;
+				margin:0 2px 0 8px;
+				line-height: 18px;
+				height: 18px;
+				font-size: 14px;
+				color: #FFFFFF;
+			}
 
-.ow_chat_block .ow_dialog_item.even .ow_dialog_in_item
-{
-	background-color: #00bcd4;
-}
+			.ow_chat_block .ow_dialog_item.even .ow_dialog_in_item
+			{
+				background-color: #00bcd4;
+			}
 
-.ow_chat_block .ow_dialog_item.odd .ow_dialog_in_item
-{
-	background-color: #9E9E9E;
-}
+			.ow_chat_block .ow_dialog_item.odd .ow_dialog_in_item
+			{
+				background-color: #9E9E9E;
+			}
 
-.ow_chat_block .ow_top_panel .ow_count_block,
-.ow_chat_block .ow_bot_panel .ow_count_block {
-	padding:5px 0;
-	margin:0;
-	text-align:center;
-	color:#000;
-	font-weight:normal;
-	visibility:visible;
-	background-color: #404040;
-}
-/* CHAT */
+			.ow_chat_block .ow_top_panel .ow_count_block,
+			.ow_chat_block .ow_bot_panel .ow_count_block {
+				padding:5px 0;
+				margin:0;
+				text-align:center;
+				color:#000;
+				font-weight:normal;
+				visibility:visible;
+				background-color: #404040;
+			}
+			/* CHAT */
+
+			/* PROFILE */
+			div.ow_right.place_section.right_section.ow_superwide
+			{
+				width: 75%;
+				margin-top: 22px;
+			}
+			/* PROFILE */
