@@ -6496,6 +6496,11 @@ table.ow_form th {
 			{
 				width: 75%;
 			}
+
+			.ow_comments_input textarea.comments_fake_autoclick
+			{
+				padding-bottom: 28px;
+			}
 			/* ODE */
 
 			/* STYLE EVENTS */
