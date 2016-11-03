@@ -2567,7 +2567,7 @@ span.ow_button:hover input[type=button]{
 .dashboard-NEWSFEED_CMP_MyFeedWidget .ow_status_update_btn_block .ow_attachments a,
 .group-NEWSFEED_CMP_EntityFeedWidget .ow_status_update_btn_block .ow_attachments a,
 .index-NEWSFEED_CMP_SiteFeedWidget .ow_status_update_btn_block .ow_attachments a{
-    background:url(images/ic_photo_attach.svg) #2196F3 no-repeat 50% 6px;
+    background:url(images/ic_attach_big.svg) #2196F3 no-repeat 50% 6px;
     width: 36px;
 }
 
@@ -2576,7 +2576,7 @@ span.ow_button:hover input[type=button]{
 .dashboard-NEWSFEED_CMP_MyFeedWidget .ow_status_update_btn_block .ow_attachments a:hover,
 .group-NEWSFEED_CMP_EntityFeedWidget .ow_status_update_btn_block .ow_attachments a:hover,
 .index-NEWSFEED_CMP_SiteFeedWidget .ow_status_update_btn_block .ow_attachments a:hover {
-    background:url(images/ic_photo_attach.svg) #2196F3 no-repeat 50% 6px;
+    background:url(images/ic_attach_big.svg) #2196F3 no-repeat 50% 6px;
     width: 36px;
 }
 	    .ow_attachments a.video{
@@ -3118,7 +3118,7 @@ span.ow_button:hover input[type=button]{
 				right: 4px;
 			}
 			.ow_comments_input .ow_attachments a {
-				background: url(images/wysiwyg.png) no-repeat scroll -176px -27px #a2acb3;
+				background: url(images/wysiwyg.png) no-repeat scroll -242px -26px #a2acb3;
 				cursor: pointer;
 				float: left;
 				height: 20px;
