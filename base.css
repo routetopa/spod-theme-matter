@@ -6601,3 +6601,10 @@ table.ow_form th {
 				margin-top: 22px;
 			}
 			/* PROFILE */
+
+			/* BLOG */
+			div.ow_ic_write .ow_content .clearfix .ow_superwide
+			{
+				width: 75%;
+			}
+			/* BLOG */
