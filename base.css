@@ -6603,7 +6603,7 @@ table.ow_form th {
 			/* PROFILE */
 
 			/* BLOG */
-			div.ow_ic_write .ow_content .clearfix .ow_superwide
+			div.ow_page.ow_bg_color.clearfix .ow_content .clearfix .ow_superwide
 			{
 				width: 75%;
 			}
