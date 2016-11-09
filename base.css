@@ -2184,6 +2184,8 @@ form p:last-child {
 				-webkit-box-sizing: border-box;
 				-moz-box-sizing: border-box;
 				box-sizing: border-box;
+				/*Blogs*/
+				height: 600px;
 			}
 			body .toolbar {
 				padding: 2px 2px 0px;
@@ -3910,7 +3912,8 @@ table.ow_form th {
 			html body div .ow_ic_restrict{ background-image: url(images/ic_restrict.svg); }
 			html body div .ow_ic_script{ background-image: url(images/ic_script.svg); }
 			html body div .ow_ic_server{ background-image: url(images/ic_server.svg); }
-			html body div .ow_ic_star{ background-image: url(images/ic_star.svg); }
+			/*html body div .ow_ic_star{ background-image: url(images/ic_star.svg); } */
+			html body div .ow_ic_star{ background-image: url(images/ic_rtpa.svg); }
 			html body div .ow_ic_tag{ background-image: url(images/ic_tag.svg); }
 			html body div .ow_ic_trash{ background-image: url(images/ic_trash.svg); }
 			html body div .ow_ic_unlock{ background-image: url(images/ic_unlock.svg); }
@@ -5142,7 +5145,7 @@ table.ow_form th {
 			/* ---- End of Blogs styles ---- */
 			/* ---- Rates Styles ---- */
 			.inactive_rate_list, .active_rate_list {
-				background: url(images/stars.png) no-repeat 0 -13px;
+				background: url(images/rtpa.png) no-repeat 0 -13px;
 				width: 65px;
 				height: 13px;
 				text-align: left;
@@ -5152,7 +5155,7 @@ table.ow_form th {
 				background-position: 0 0;
 			}
 			.rates_cont a.rate_item {
-				background: url(images/stars.png) no-repeat 0 -13px;
+				background: url(images/rtpa.png) no-repeat 0 -13px;
 				cursor: pointer;
 				float: left;
 				height: 13px;
