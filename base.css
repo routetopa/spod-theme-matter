@@ -2590,9 +2590,17 @@ span.ow_button:hover input[type=button]{
                 height: 36px;
                 width: 36px;
                 padding: 0px;
-                /*margin: 0px;*/
                 background-position: right;
             }
+
+			.ow_attachment_btn input[name="map_open_dialog"] {
+				background-image: url('images/maplocation_36x36_blue.svg');
+				height: 36px;
+				width: 36px;
+				padding: 0px;
+				background-position: right;
+			}
+
 			.ow_attachments a.attach {
 				background: url(images/ic_attach_big.svg) no-repeat 0 0;
 				height: 26px;
@@ -6470,6 +6478,10 @@ table.ow_form th {
 
 			/* ODE */
 			input[name="ode_open_dialog"]{
+				border-radius:18px;
+			}
+
+			input[name="map_open_dialog"]{
 				border-radius:18px;
 			}
 
