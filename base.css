@@ -2602,11 +2602,13 @@ span.ow_button:hover input[type=button]{
 			}
 
 			.ow_attachment_btn input[name="splod_open_dialog"] {
-				background-image: url('images/splod.svg');
 				height: 36px;
 				width: 36px;
 				padding: 0;
-				background-position: right;
+
+				background: #2196f3 url('images/splod.svg') no-repeat 1px 3px;
+				background-size: 30px 30px;
+
 			}
 
 			.ow_attachment_btn input[name="my_space"] {
