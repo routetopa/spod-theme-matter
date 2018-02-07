@@ -2601,6 +2601,14 @@ span.ow_button:hover input[type=button]{
 				background-position: right;
 			}
 
+			.ow_attachment_btn input[name="splod_open_dialog"] {
+				background-image: url('images/splod.svg');
+				height: 36px;
+				width: 36px;
+				padding: 0;
+				background-position: right;
+			}
+
 			.ow_attachment_btn input[name="my_space"] {
 				background: #2196F3 url(images/myspace-button.svg) no-repeat 0 0;
 				background-size: 30px;
@@ -6494,6 +6502,10 @@ table.ow_form th {
 			}
 
 			input[name="map_open_dialog"]{
+				border-radius:18px;
+			}
+
+			input[name="splod_open_dialog"] {
 				border-radius:18px;
 			}
 
